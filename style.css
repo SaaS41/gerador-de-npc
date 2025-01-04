@@ -1,0 +1,103 @@
+@font-face {
+    font-family: DragonHunter;
+    src: url(DragonHunter-9Ynxj.otf);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: #FA011B;
+    --color2: #CF2334;
+    --color3: #A53742;
+    --color4: #393939;
+    --color5: #232323;
+
+    --color00: #e43648;
+}
+
+body {
+    height: 100vh;
+    background: var(--color4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 800px;
+
+    background: var(--color5);
+    padding: 20px;
+
+    border-radius: 10px;
+    border: 3px solid var(--color);
+    box-shadow: 0 0 10px 2px var(--color2);
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 20px;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 10px;
+
+    font-family: "DragonHunter";
+    font-weight: 100;
+
+    color: var(--color2);
+}
+
+main .att {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.att p {
+    margin-bottom: 2px;
+}
+
+.att span.A {
+    color: var(--color);
+    font-weight: 700;
+}
+
+.att p span.value {
+    color: #fff;
+
+}
+
+button#gerar {
+    border: none;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    color: #fff;
+    background: var(--color2);
+    font-size: 1em;
+    font-weight: 800;
+
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+button#gerar:hover {
+    width: 60%;
+    box-shadow: 0 0 20px #00000081;
+
+}
+
+button#gerar:active {
+    transition: .1s ease;
+    width: 58%;
+    background: var(--color00);
+    box-shadow: none;
+}
