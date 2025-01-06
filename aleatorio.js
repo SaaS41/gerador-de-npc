@@ -99,8 +99,10 @@ const nomes = [
     "Wellington",
     "Roberta",
     "Tiago",
-    "Vitória"
-
+    "Vitória",
+    "Enzo",
+    "Victor",
+    "Lauro"
 ];
 const sobrenomes = [
     "Silva",
@@ -202,9 +204,30 @@ const sobrenomes = [
     "Toscano",
     "Girão",
     "Arruda",
-    "Miranda"
+    "Miranda",
+    "Bernardes",
+    "Anacleto",
+    "Filho"
 ];
-const racas = ["Humano", "Elfo", "Anão", "Orc", "Goblin", "Dragonborn"];
+
+const racas = [
+    "Tiefling",
+    "Goblin",
+    "Meio-Orc",
+    "Humano",
+    "Meio-Elfo",
+    "Anão",
+    "Halfling",
+    "Gnomo",
+    "Orc",
+    "Draconato",
+    "Tabaxi",
+    "R A T O",
+    "Elfo",
+    "Elfo Negro",
+    "Elfo da Floresta"
+];
+
 const caracteristicas = [
     //Chat gepeto
     "Olhos dourados",
@@ -318,7 +341,7 @@ const caracteristicas = [
     "Musculoso",
     "Cabelos longos",
     "Cabelos curtos",
-    "Cabelos brancos",
+    "Cabelos brancos"
 ];
 const trabalhos = [
     "Ferreiro",
